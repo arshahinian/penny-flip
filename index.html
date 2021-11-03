@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Penny Flip</title>
+        <link rel="stylesheet" type="text/css" href="./styles/main.css"/>
+    </head>
+    <body>
+        <h1>
+            Penny Flip Game
+        </h1>
+        <img id="penny-image" src="./images/penny-heads.jpg" alt="penny"/>
+        <div class="play-button-container">
+            <button id="flip-button" class="play-button">Flip the Penny!</button>
+            <button id="clear-button" class="play-button">Clear Scoreboard</button>
+        </div>
+        <h2 id="status-banner">Start the Game</h2>
+        <hr/>
+        <h3>Scoreboard</h3>
+
+        <table class="scoreboard-table">
+            <thead>
+                <tr>
+                    <th>Number of Heads</th>
+                    <th>Percentage Heads</th>
+                    <th>Number of Tails</th>
+                    <th>Percentage Tails</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="heads-counter">0</td>
+                    <td id="heads-percentage">0 %</td>
+                    <td id="tails-counter">0</td>
+                    <td id="tails=percentage">0 %</td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="./scripts/main.js"></script>
+    </body>
+</html>

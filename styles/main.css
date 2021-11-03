@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+ }
+
+ .scoreboard-table
+ {    
+    margin-left: auto;
+    margin-right: auto;     
+    border: 2px solid darkblue;
+    text-align: center;  
+ }
+
+ td,tr,th
+ {
+     border:1px solid blueviolet
+ }
+
+ .play-button
+ {
+    font-size: 20px;
+    border-radius: 10px;
+ }
+
+ #flip-button
+ {
+     background-color:skyblue;
+ }
+
+ #clear-button
+ {
+    background-color:goldenrod;
+ }
+
+ .play-button-container
+ {
+    border:1px solid darkblue;
+    padding: 3px;
+    
+ }
